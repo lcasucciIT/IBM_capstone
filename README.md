@@ -33,3 +33,17 @@ Discussion section where you discuss any observations you noted and any recommen
 Conclusion section where you conclude the report.
 A link to your Notebook on your Github repository pushed showing your code.
 Your choice of a presentation or blogpost.
+
+
+
+In this assignment, I will explore, segment, and cluster the neighborhoods in the city of Rome. I am interested in finding out what is the best location to open a modern wine bar.
+
+For the Rome neighborhood data, a Wikipedia page exists that has all the information we need to explore and cluster the neighborhoods (Municipi) in Rome, the capital of Italy - see link 'https://it.wikipedia.org/wiki/Municipi_di_Roma'.
+
+I will scrape the Wikipedia page and wrangle the data, clean it, and then read it into a pandas dataframe so that it is in a structured format.
+
+I will convert addresses into their equivalent latitude and longitude values using the geocoder library. Also, I will use the Foursquare API to explore neighborhoods in Rome. I will use the explore function to get the most common venue categories in each neighborhood,check out their ratings,and the overall count of venues to understand the traffic.
+
+I will then use this feature to group the neighborhoods into clusters.I will use the k-means clustering algorithm to complete this task.
+
+Finally, I will use the Folium library to visualize the neighborhoods in Rome and their emerging clusters, and identify the best one to open a modern wine bar.
